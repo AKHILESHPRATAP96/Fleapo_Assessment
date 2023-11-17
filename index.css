@@ -1,0 +1,10 @@
+.transform-card {
+    transform: scale(1.02); /* 1.2x transformation */
+    background-color: rgb(255, 200, 150); /* Light orange color */
+    transition: transform 0.3s, background-color 0.3s; /* Smooth transition effect */
+}
+
+.transform-card:hover {
+    transform: scale(1.2);
+    background-color: rgb(255, 220, 180); /* Lighter color on hover */
+}
