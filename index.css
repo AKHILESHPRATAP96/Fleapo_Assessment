@@ -8,3 +8,13 @@
     transform: scale(1.2);
     background-color: rgb(255, 220, 180); /* Lighter color on hover */
 }
+.nav-item a:hover{
+    transform: scale(1.2);
+    font-weight: 600;
+}
+
+  @media (max-width: 576px) {
+    .img-size {
+      width: 25%; 
+    }
+  }
